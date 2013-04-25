@@ -1,0 +1,21 @@
+class  Grand
+
+def father
+ puts "inside father"
+end
+end
+
+class Child <Grand
+ 
+def father
+super
+puts "inside child"
+
+end
+end
+
+g= Child.new
+g.father
+
+
+

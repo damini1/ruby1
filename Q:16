@@ -1,0 +1,25 @@
+uts "Enter the number"
+num= gets.to_i
+if num==1 then
+puts "one"
+elsif num==2 then
+puts "two"
+elsif num==3 then
+puts "three"
+elsif num==4 then
+puts "four"
+elsif num==5 then
+puts "five"
+elsif num==6 then
+puts "six"
+elsif num==7 then
+puts "seven"
+elsif num==8 then
+puts "eight"
+elsif num==9 then
+puts "nine"
+elsif num==10 then
+puts "ten"
+else
+puts "wrong number"
+end

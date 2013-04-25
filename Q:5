@@ -1,0 +1,16 @@
+class D
+
+
+def initialize(id,name,age)
+@id=id
+@name=name
+@age=age
+end
+def display()
+puts @id
+puts @name
+puts @age
+end
+end
+d=D.new(1,'damini',5)
+d.display()

@@ -1,0 +1,18 @@
+class E
+
+def prac 
+ 
+begin
+puts "i am before error occurence"
+raise"i raised an error"
+puts " i am after the error"
+
+rescue
+puts"i catch all the errors"
+
+ensure
+puts"i am like finlly i will surely run"
+ end
+
+end
+end

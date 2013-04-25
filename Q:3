@@ -1,0 +1,8 @@
+ $i=0
+$num=5
+
+
+begin 
+puts"inside #$i"
+$i+=1
+end until $i>$num

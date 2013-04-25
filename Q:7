@@ -1,0 +1,10 @@
+class AL
+
+def on
+puts"inside on"
+end
+
+alias :off:on
+end
+a= AL.new
+a.off

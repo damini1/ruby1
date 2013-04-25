@@ -1,0 +1,9 @@
+class H
+def hello
+puts "hello"
+end
+end
+h= H.new
+h.hello
+undef
+end

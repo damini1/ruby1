@@ -1,0 +1,30 @@
+$u=100
+
+class A
+
+@@counter=0
+
+def initialize(id,age)
+@id=id
+@age=age
+end
+def display()
+ puts @@counter
+ @@counter+=1
+  puts @id
+puts @age
+puts $u
+end
+
+def man
+@id+=1
+@age-=1
+$u*=10
+
+end
+end
+a=A.new(10,20)
+a.man
+a.display()
+
+
